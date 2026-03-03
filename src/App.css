@@ -1,0 +1,121 @@
+.app-bg {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 8% 10%, rgba(88, 155, 255, 0.28) 0%, transparent 36%),
+    radial-gradient(circle at 92% 6%, rgba(133, 185, 255, 0.22) 0%, transparent 34%),
+    radial-gradient(circle at 80% 88%, rgba(127, 202, 245, 0.2) 0%, transparent 44%),
+    linear-gradient(145deg, #eaf4ff 0%, #f5fbff 45%, #ecf6ff 100%);
+  padding: 22px 14px 30px;
+}
+
+.shell {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.top-steps {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+  border: 1px solid #d4e4f6;
+  box-shadow: 0 10px 28px rgba(39, 89, 161, 0.08);
+}
+
+.main-card {
+  border-radius: 20px;
+  min-height: 600px;
+  box-shadow: 0 20px 48px rgba(31, 79, 145, 0.14);
+  border: 1px solid #d4e4f6;
+  background: linear-gradient(180deg, #ffffff 0%, #f9fcff 100%);
+}
+
+.main-card .ant-card-body {
+  padding: 20px 22px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.center-content {
+  align-items: center;
+  padding: 14px 0;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-card {
+  border-radius: 14px;
+  border: 1px solid #dce9f7;
+  background: linear-gradient(170deg, #ffffff 0%, #f2f8ff 100%);
+}
+
+.nav-card {
+  border-radius: 14px;
+  border: 1px solid #dce9f7;
+  background: linear-gradient(170deg, #ffffff 0%, #f7fbff 100%);
+  transition: all 0.18s ease;
+}
+
+.nav-card:hover {
+  transform: translateY(-2px) scale(1.01);
+  border-color: #b8d4f4;
+  box-shadow: 0 10px 22px rgba(32, 98, 176, 0.1);
+}
+
+.nav-icon {
+  font-size: 20px;
+  color: #1f6feb;
+  margin-top: 2px;
+}
+
+.status-mini-card {
+  border-radius: 10px;
+  border: 1px solid #e3ecf7;
+}
+
+.chat-card {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fcfdff, #f2f7ff);
+  border: 1px solid #d4e4f6;
+}
+
+.bubble {
+  max-width: 88%;
+  border-radius: 12px;
+  padding: 10px 12px;
+  line-height: 1.45;
+}
+
+.bubble-agent {
+  background: #e9f3ff;
+  color: #22456f;
+}
+
+.bubble-user {
+  margin-left: auto;
+  background: #1f6feb;
+  color: #fff;
+}
+
+.channel-card {
+  border-radius: 14px;
+  border: 1px solid #dce9f7;
+}
+
+.danger-card {
+  border-radius: 14px;
+  border: 1px solid #ffd2d2;
+  background: linear-gradient(180deg, #fff, #fff7f7);
+}
+
+@media (max-width: 992px) {
+  .main-card {
+    min-height: auto;
+  }
+}
